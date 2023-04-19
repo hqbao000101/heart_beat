@@ -14,8 +14,8 @@ body svg {
   height: 500px;
   cursor: pointer;
   position: absolute;
-  top: 25%;
-  left: 35%;
+  top: 50%;
+  left: 50%;
   stroke-width: 0;
   transform: translate(-50%,-50%);
   animation: heartBeat 5s infinite;
@@ -109,7 +109,7 @@ img {
     top: 100%;
   }
   to {
-    top: 40%;
+    top: 35%;
   }
 }
 
@@ -126,24 +126,24 @@ img {
 
 @keyframes heartBeat {
   0% {
-    transform: scale(1);
+    transform: translate(-50%,-50%) scale(1);
   }
   40% {
-    transform: scale(1.5)
+    transform: translate(-50%,-50%) scale(1.5)
   }
   46% {
-    transform: scale(1);
+    transform: translate(-50%,-50%) scale(1);
   }
   48% {
-    transform: scale(1.2);
+    transform: translate(-50%,-50%) scale(1.2);
   }
   52% {
-    transform: scale(1);
+    transform: translate(-50%,-50%) scale(1);
   }
   54% {
-    transform: scale(1.3);
+    transform: translate(-50%,-50%) scale(1.3);
   }
   100% {
-    transform: scale(1);
+    transform: translate(-50%,-50%) scale(1);
   }
 }
