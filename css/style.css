@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,8 +11,8 @@ body {
 
 body svg {
   fill: red;
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 50%;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -96,6 +97,7 @@ i:nth-of-type(7) {
 }
 
 img {
+  width: 50%;
   position: absolute;
   top: 100%;
   left: 50%;
